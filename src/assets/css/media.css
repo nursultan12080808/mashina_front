@@ -1,0 +1,150 @@
+@media screen and (max-width: 1000px) {
+    .dn {
+        display: block;
+    }
+
+    .nav_col2 {
+        display: none;
+    }
+
+    .nav_col3 {
+        display: none;
+    }
+
+    .nav_col4 {
+        display: flex;
+    }
+
+    .nav1_col2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .mark_img {
+        width: 38px;
+    }
+
+    .mark_item {
+        column-gap: 5px;
+    }
+
+    .filter_marks {
+        row-gap: 50px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .car_row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .car_col1 {
+        width: 100%;
+    }
+
+    .car_co0 {
+        display: none;
+    }
+
+    .car_co1 {
+        padding: 20px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .div_avatar_img img {
+        height: 90%;
+        object-fit: cover;
+        width: 90%;
+        border-radius: 50%;
+    }
+
+    .user_email {
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .phone {
+        display: none;
+    }
+
+    .user_titles {
+        padding-top: 10px;
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .user_row {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .user_col2 {
+        justify-content: center;
+        margin-top: 21px;
+        margin-left: 10px;
+    }
+
+    .div_avatar {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .Title {
+        margin: 40px 0 0 0;
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .title123 {
+        margin: 40px 0;
+    }
+
+    .red_butt a {
+        font-size: 15px;
+    }
+
+    .select {
+        font-size: 15px;
+    }
+
+    .range_size-item {
+        font-size: 13px;
+    }
+
+    .selecter {
+        flex-direction: column;
+        margin-top: 20px;
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Logo {
+        width: 140px;
+    }
+
+    .buttons {
+        column-gap: 16px;
+    }
+
+    .nav_select {
+        font-size: 15px;
+    }
+
+    .nav1_col1 {
+        column-gap: 20px;
+    }
+}

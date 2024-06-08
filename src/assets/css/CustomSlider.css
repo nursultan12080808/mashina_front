@@ -1,0 +1,33 @@
+
+.rc-slider-handle {
+    position: absolute;
+    z-index: 1;
+    width: 14px;
+    height: 14px;
+    margin-top: -5px;
+    background-color: rgb(255, 0, 0);
+    border: solid 2px #ff0000;
+    border-radius: 50%;
+    cursor: pointer;
+    cursor: grab;
+    opacity: 0.8;
+    touch-action: pan-x;
+}
+
+.rc-slider-track, .rc-slider-tracks {
+    position: absolute;
+    height: 6px;
+    background-color: #de1515;
+    border-radius: 6px;
+}   
+
+.rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging {
+    border-color: #f75757;
+    box-shadow: 0 0 0 5px #fa9696;
+}
+.rc-slider-handle:hover {
+    border-color: #f7575746;
+}
+.rc-slider {
+    width: 96%;
+}
